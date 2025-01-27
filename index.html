@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fazidea App Store - Explore nossos aplicativos incríveis">
+    <title>Fazidea App Store</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Share Tech Mono', monospace;
+            background-color: #34004A;
+            color: #FDF400;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        header {
+            background-color: #65008A;
+            width: 100%;
+            padding: 20px 0;
+            color: #FDF400;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        .logo {
+            max-width: 150px;
+            margin: 10px auto;
+        }
+
+        .app-list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+            width: 90%;
+            max-width: 800px;
+        }
+
+        .app-item {
+            background-color: #65008A;
+            color: #FDF400;
+            margin: 15px 0;
+            padding: 20px;
+            border-radius: 8px;
+            width: 100%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .app-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .app-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .app-description {
+            font-size: 1em;
+            margin-bottom: 15px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #34004A;
+            color: #FDF400;
+            font-size: 1em;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #65008A;
+        }
+
+        .app-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            margin-top: auto;
+            background-color: #65008A;
+            width: 100%;
+            padding: 10px 0;
+            color: #FDF400;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://via.placeholder.com/150.png?text=Fazidea+Logo" alt="Fazidea Logo" class="logo">
+        <h1>Fazidea App Store</h1>
+        <p>Descubra nossos aplicativos inovadores!</p>
+    </header>
+
+    <section class="app-list">
+        <div class="app-item">
+            <img src="https://play-lh.googleusercontent.com/3q0EMmKP0bDdg_xL5q2IJsJHuD3wX9Q_ny3K-2tUIAelZIaKyAZjawlcTJQwUddTDxk=w240-h480-rw" alt="DeliverMute" class="app-image">
+            <div class="app-title">DeliverMute</div>
+            <div class="app-description">Controle o volume dos seus aplicativos de forma inteligente.</div>
+            <a href="delivermute-site.html" class="button">Abrir App</a>
+        </div>
+        <!-- Adicione mais aplicativos aqui -->
+    </section>
+
+    <footer>
+        &copy; 2025 Fazidea. Todos os direitos reservados.
+    </footer>
+</body>
+</html>
